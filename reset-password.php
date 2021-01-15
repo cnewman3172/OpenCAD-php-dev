@@ -76,3 +76,4 @@ Click here</a> to Login.</p></div><br />';
     }
 }
 ?>
+
