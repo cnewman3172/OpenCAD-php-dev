@@ -12,6 +12,12 @@ CREATE TABLE IF NOT EXISTS `<DB_PREFIX>aop` (
   `aop` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 ROW_FORMAT=COMPACT;
 
+CREATE TABLE IF NOT EXISTS `<DB_PREFIX>password_reset_temp` (
+    `email` varchar(255) NOT NULL,
+    `key` int(11) NOT NULL AUTO_INCREMENT,
+    `expDate` date NOT NULL
+    ) ENGINE=InnoDB DEFAULT CHARSET=latin1 ROW_FORMAT=COMPACT;
+
 CREATE TABLE IF NOT EXISTS `<DB_PREFIX>bolos_persons` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `first_name` varchar(255) NOT NULL COMMENT 'First name of BOLO suspect.',

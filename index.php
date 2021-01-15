@@ -194,7 +194,7 @@ your account and change your security password as someone may have guessed it.</
 						<br />
 						<div>
 						   <h1><i class="fas fa-users"></i> <?php echo COMMUNITY_NAME?> CAD System</h1>
-						   <h2> OpenCAD Version <?php getOpenCADVersion();?> </h2>
+						   <h2> OpenCAD Stable Version <?php getOpenCADVersion();?> </h2>
 						</div>
 					 </div>
 					 <?php } ?>
